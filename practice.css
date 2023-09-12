@@ -1,0 +1,29 @@
+:root{
+  --primary-color:#ed425e
+}
+.header_text{
+     color: #ed425e;
+     font-size: 30px;
+     margin-right: 40px;
+}
+.side_btn .login{
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  font-size: 20px;
+  padding:  5px 20px 0 10px;
+  color: black;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.side_btn .signup{
+  background-color: var(--primary-color);
+  padding: 5px 20px 0 10px;
+  font-size: 25px;
+  color: white;
+  border-radius: 10px;
+}
+
+.globe{
+  margin-right: 50px;
+  margin-left: 20px;
+}

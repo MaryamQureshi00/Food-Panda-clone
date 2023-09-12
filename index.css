@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  /* left: 50px; */
+  padding: 0;
+}
+
+.navbar {
+  box-shadow: 100px;
+}
+
+.image {
+ 
+  height: 400px;
+  margin: 0;
+  /* left: 50px; */
+  padding: 0;
+  float: right;
+  width: 140rem;
+ 
+}
+
+.foodpanda {
+  font-size: x-large;
+  color: rgb(233, 61, 127);
+}
+
+.signin {
+  block-size: 20%;
+  color: rgb(162, 28, 80);
+  outline-color: rgb(162, 28, 80);
+  border-radius: 10px;
+
+}
+
+.signin:hover {
+  background-color: rgba(171, 88, 173, 0.177);
+  transform: scale(1.1);
+}
+
+.signup {
+  block-size: 20%;
+  color: rgb(255, 255, 255);
+  outline-color: rgb(162, 28, 80);
+  ;
+  background-color: rgb(162, 28, 80);
+  border-radius: 10px;
+}
+
+.signup:hover {
+  transform: scale(1.1);
+}
+
+.language {
+  block-size: 20%;
+  color: rgb(162, 28, 80);
+}
+
+.language:hover {
+  background-color: rgba(171, 88, 173, 0.177);
+  border-radius: 10px;
+}
+
+.grey {
+  background-color: rgba(213, 210, 210, 0.678);
+  box-shadow: 2px;
+  height: 100vh;
+}
+
+h1 {
+  text-align: left;
+  margin-top: 90px;
+  margin-left: 70px;
+}
+
+/* .searchbar {
+  background-color: rgb(255, 255, 255);
+  height: 55px;
+} */
+
+.searchbox {
+  text-align: left;
+  margin-left: 70px;
+  border-radius: 10px;
+}
+
+.find {
+  color: rgb(255, 255, 255);
+  background-color: rgb(162, 28, 80);
+  border-radius: 10px;
+}
+
+.find:hover {
+  transform: scale(1.1);
+}
