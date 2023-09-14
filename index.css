@@ -1,38 +1,47 @@
-*{
+* {
   margin: 0;
   /* left: 50px; */
   padding: 0;
 }
+.logo{
+  padding: 0px 64px;
+  color: var(--primary-color);
+  font-size: 7px;
+  
+}
+body {
+  font-size: 16px;
+}
 
-.navbar {
-  box-shadow: 100px;
+.header {
+  padding: 10px;
+}
+.header_text {
+  color: #ed425e;
+  font-size: 30px;
+  margin-right: 40px;
 }
 
 .image {
- 
-  height: 400px;
+
+  height: 350px;
   margin: 0;
+  margin-top: 3rem;
   /* left: 50px; */
   padding: 0;
   float: right;
-  width: 140rem;
- 
+  width: 30rem;
+
 }
 
-.foodpanda {
-  font-size: x-large;
-  color: rgb(233, 61, 127);
-}
-
-.signin {
+.login {
   block-size: 20%;
   color: rgb(162, 28, 80);
   outline-color: rgb(162, 28, 80);
   border-radius: 10px;
-
 }
 
-.signin:hover {
+.login:hover {
   background-color: rgba(171, 88, 173, 0.177);
   transform: scale(1.1);
 }
@@ -41,7 +50,6 @@
   block-size: 20%;
   color: rgb(255, 255, 255);
   outline-color: rgb(162, 28, 80);
-  ;
   background-color: rgb(162, 28, 80);
   border-radius: 10px;
 }
@@ -63,13 +71,20 @@
 .grey {
   background-color: rgba(213, 210, 210, 0.678);
   box-shadow: 2px;
-  height: 100vh;
+  height: 78vh;
 }
 
-h1 {
-  text-align: left;
-  margin-top: 90px;
-  margin-left: 70px;
+.p {
+  display: block;
+  /* font-size: 2em; */
+  margin-block-start: 1em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 2em;
+  margin-inline-end: 0px;
+  font-weight: light;
+}
+.hover:hover{
+  background-color: #ed425e;
 }
 
 /* .searchbar {
@@ -91,4 +106,13 @@ h1 {
 
 .find:hover {
   transform: scale(1.1);
+}
+
+.globe {
+  color: black;
+}
+
+h4{
+  margin: 0px 0px 24px;
+  font-size: 30px;
 }
