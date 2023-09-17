@@ -2,118 +2,220 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Bootstrap</title>
-    <link rel="stylesheet" href="./bootstrap.css">
-    <link rel="stylesheet" href="./index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="./bootstrap.css">
+  <link rel="stylesheet" href="./index.css">
 </head>
 
-<body> 
-    <nav class="navbar navbar-expand-lg navbar-body-tertiary navbar">
-        <div class="container-fluid">
-          
-            <a class="navbar-brand d-flex p-2 align-items-center " href="#">
-                <img src="./Foodpanda logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
-                <div class="header_text mx-2">foodpanda</div>
-              </a>
-            <form class="d-flex" style="display: flex;a;align-items: center;justify-content: space-between;" role="search">
-                <button class="btn btn-outline-danger signin mr-4" type="submit">Log in</button>
-                <button class="btn signup" type="submit">Sign up</button>
-               
-                <ul class="navbar-nav " style="display: flex; align-items: center; margin-left: 2rem;" >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16">
-                    <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
-                  </svg>
-                    <li class="nav-item dropdown">
-                        <a href="" class="nav-link dropdown-toggle  language" data-toggle="dropdown">EN</a>
-                        <div class="dropdown-menu">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-globe2"
-                            viewBox="0 0 16 16">
-                            <path
-                              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
-                          </svg>   
-                            <a href="" class=dropdown-item ">English</a>
-                            
-                        </div>
-                    </li>
-                </ul>
-<span class="hover" style="border-radius: 100%; ;padding: 0.6rem;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                </svg></span>
-            </form>
-        </div>
-    </nav>
-    <!-- <header>
-        <nav class="navbar bg-body-tertiary shadow-lg bg-body-tertiary rounded">
-            
-          <div class="container-fluid ">
+<body>
+  <nav class="navbar navbar-expand-lg navbar-body-tertiary navbar " style="padding: 0px 64px;">
+    <div class="container-fluid">
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle"
-              viewBox="0 0 16 16">
-              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-              <path fill-rule="evenodd"
-                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-            </svg>
-            
-            <a class="navbar-brand d-flex align-items-center logo" href="./index.html">
-              <img src="./Foodpanda logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
-              <div class="header_text food">foodpanda</div>
-            </a>
+      <a class="navbar-brand d-flex p-2 align-items-center " href="#">
+        <img src="./Foodpanda logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+        <div class="header_text mx-2">foodpanda</div>
+      </a>
+      <form class="d-flex" style="display: flex;align-items: center;justify-content: space-between;" role="search">
+        <a href="./login.html"><button  class="btn btn-outline-danger signin mr-4" type="submit">Log in</button></a>
+     <a href="./signup.html">   <button class="btn signup" type="submit">Sign up</button></a>
 
-            <div class="side_btn d-flex align-items-center ">
-              <a href="./login.html"></a>
-              <button type="button" class="btn btn-sm login">Log in </button>
-              <button type="button" class="btn  btn-outline btn-sm signup">Sign up </button> -->
-              <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe2"
+        <ul class="navbar-nav " style="display: flex; align-items: center; margin-left: 2rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-globe2"
+            viewBox="0 0 16 16">
+            <path
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+          </svg>
+          <li class="nav-item dropdown">
+            <a href="" class="nav-link dropdown-toggle  language" data-toggle="dropdown">EN</a>
+            <div class="dropdown-menu">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-globe2"
                 viewBox="0 0 16 16">
                 <path
                   d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
-              </svg> -->
-              <!-- <h6 class="language">EN</h6> -->
-              <!-- <div class="dropdown">
-                <button class="btn bx bx-chevron-down" type="button" data-bs-togg="dropdown" aria-expanded="false">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe2"
-                    viewBox="0 0 16 16">
-                    <path
-                      d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
-                  </svg>EN
-                </button>
-                <ul class="dropdown-menu">
-                  <li><button class="dropdown-item" type="button">English</button></li>
-                </ul>
-              </div>
-              <svg aria-hidden="true" focusable="false" class="fl-brand-primary bag" width="24" height="24"
-                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M12.0021 2C14.5418 2 16.4241 3.6512 16.5538 6.15854H19.8491C20.4014 6.15854 20.8491 6.60625 20.8491 7.15854C20.8491 7.20585 20.8457 7.25311 20.8391 7.29996L19.1248 19.1414C19.0544 19.6341 18.6325 20 18.1348 20H5.86942C5.37176 20 4.94984 19.6341 4.87947 19.1414L3.16518 7.29996C3.08707 6.75322 3.46697 6.24669 4.0137 6.16859C4.06055 6.16189 4.10781 6.15854 4.15513 6.15854L7.36129 6.16397C7.49108 3.65663 9.46248 2 12.0021 2ZM17.5607 16.25H6.44235C6.22143 16.25 6.04235 16.4291 6.04235 16.65C6.04235 16.669 6.04369 16.6879 6.04638 16.7067L6.25397 18.1567C6.28217 18.3537 6.45092 18.5 6.64993 18.5H17.3533C17.5523 18.5 17.7211 18.3537 17.7492 18.1566L17.9567 16.7066C17.988 16.488 17.836 16.2853 17.6174 16.254C17.5986 16.2513 17.5797 16.25 17.5607 16.25ZM18.8109 7.65854H5.19233C4.97142 7.65854 4.79233 7.83762 4.79233 8.05854C4.79233 8.32251 4.79367 8.09637 4.79635 8.11511L5.71793 14.4066C5.74609 14.6036 5.91486 14.75 6.11391 14.75H17.8891C18.0882 14.75 18.2569 14.6036 18.2851 14.4066L19.2069 8.11513C19.2381 7.89643 19.0862 7.69381 18.8675 7.66256C18.8487 7.65988 18.8298 7.65854 18.8109 7.65854ZM12.0021 3.40323C10.4163 3.40323 9.15495 4.32251 8.91234 5.80175C8.88507 5.96802 8.98943 6.12701 9.15495 6.15854C9.17377 6.16212 9.19289 6.16392 9.21204 6.1639L14.7134 6.15847C14.8772 6.15843 15.0099 6.02566 15.0099 5.86189C15.0099 5.84361 14.9631 5.82209 15.0049 5.80742C14.655 4.32251 13.5918 3.40323 12.0021 3.40323Z">
-                </path>
               </svg>
-            </div>
-          </div>44444
-        </nav>
-      </header>  -->
-    <div class=" grey" style="display: flex;justify-content:space-around;">
-        
-            <div  style="display: flex;justify-content: center;flex-direction: column;align-items: center;">
-                <h2 style="text-align: center;" class="">It's the food and groceries you love, delivered</h2>
-                <!-- <h4>It's the food and groceries you love, delivered</h4> -->
-                <form  style="display: flex;justify-content: center;align-items: center;"class="" role="search">
-                <span style="background-color: aquamarine
-                ;padding: 0.5rem;display: flex;justify-content: center;align-items: center">
+              <a href=" class=dropdown-item ">English</a>
 
-               
-                    <input  size="300" style="padding: 0.5rem;" class="form-control searchbox" type="search" placeholder="Enter your full address">
-                    <button class="btn btn-outline-danger ml-1 find">Find food</button>
-                </span> </form>
             </div>
-            <span>
-            <img class="image"  src="./s.png" alt="" srcset="">
-            </span>
-        
+          </li>
+        </ul>
+        <span class=" hover" style="border-radius: 100%; ;padding: 0.6rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag"
+            style="color: #ed425e;;" viewBox="0 0 16 16">
+            <path
+              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+          </svg></span>
+      </form>
     </div>
-<h2>You prepare the food, we handle the rest</h2>
+  </nav>
+
+  <div class=" grey" style="display: flex;justify-content:space-around;">
+
+    <div style="display: flex;justify-content: center;flex-direction: column;align-items: center; margin-left: 2rem;">
+      <h2 class="container-fluid mb-5 ">It's the food and groceries you love, delivered</h2>
+      <!-- <h4>It's the food and groceries you love, delivered</h4> -->
+      <form style="display: flex;justify-content: center;align-items: center;" class="container-fluid" role="search">
+        <span style="background-color: rgb(255, 255, 255);
+                 border-radius: 16px; padding: 16px; display: flex;justify-content: center;align-items: center">
+
+
+          <input size="300" style="padding: 12px 16px 12px 15px;" class="form-control searchbox" type="search"
+            placeholder="Enter your full address">
+          <button class="btn btn-outline-danger ml-1 find">Find food</button>
+        </span>
+      </form>
+    </div>
+    <span>
+      <img class="image" src="./s.png" alt="" srcset="">
+    </span>
+
+  </div>
+
+  <div class="quote">
+    <p style="margin-top: 4rem; margin-bottom: 2rem; font-size: xx-large;" class="ml-5  middle">You prepare the food, we
+      handle the rest</p>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 image2"></div>
+    </div>
+  </div>
+
+  <div class="col-7 ml-5 shadow-lg bg-white overlap" style="margin-top: -10rem; border-radius: 1rem;">
+    <p class="text-lg-left" style="font-size: 1.7em; line-height: 6rem;">List your restaurant or shop on foodpanda</p>
+    <p class="ml-2" style="font-size: large; line-height: 28px;">Would you like millions of new customers to enjoy your
+      amazing food and groceries? So would we!</p>
+    <p class="ml-2" style="font-size: large; line-height: 28px;">It's simple: we list your menu and product lists
+      online, help you process orders, pick them up, and deliver them to hungry pandas – in a heartbeat!</p>
+    <p class="ml-2" style="font-size: large; line-height: 28px;">Interested? Let's start our partnership today!</p>
+    <button class="btn getstarted" type="submit">Get started</button>
+
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-8 pra">Find us in this cities and more!</div>
+
+      <div class="col-11 city">
+        <img src="./Islamabad.webp" height="300px" width="350px" class="img-set">
+        <img src="./Karachi.webp" height="300px" width="350px" class="img-set">
+        <img src="./Lahore.webp" height="300px" width="350px" class="img-set">
+      </div>
+
+      <div class="col-11 city">
+        <img src="./Faisalabad.webp" height="300px" width="350px" class="img-set">
+        <img src="./Rawalpindi.webp" height="300px" width="350px" class="img-set">
+        <img src="./Abottabad.webp" height="300px" width="350px" class="img-set">
+      </div>
+
+      <div class="col-11 city">
+        <img src="./Bahawalpur.webp" height="300px" width="350px" class="img-set">
+        <img src="./DeraGhaziKhan.webp" height="300px" width="350px" class="img-set">
+        <img src="./Gujranwala.webp" height="300px" width="350px" class="img-set">
+      </div>
+
+      <div class="col-11 city">
+        <img src="./Gujrat.jpg" height="300px" width="350px" class="img-set">
+        <img src="./Hyderabad.webp" height="300px" width="350px" class="img-set">
+        <img src="./Jhelum.webp" height="300px" width="350px" class="img-set">
+      </div>
+
+      <div class="col-11 city">
+        <img src="./Kamoke.webp" height="300px" width="350px" class="img-set">
+        <img src="./Larkana.webp" height="300px" width="350px" class="img-set">
+        <img src="./Mangla.webp" height="300px" width="350px" class="img-set">
+      </div>
+
+      <div class="col-11 city">
+        <img src="./Mardan.webp" height="300px" width="350px" class="img-set">
+        <img src="./Multan.webp" height="300px" width="350px" class="img-set">
+        <img src="./Murree.webp" height="300px" width="350px" class="img-set">
+      </div>
+
+      <div class="col-11 city">
+        <img src="./Okara.webp" height="300px" width="350px" class="img-set">
+        <img src="./PanoAqil.webp" height="300px" width="350px" class="img-set">
+        <img src="./Peshawar.webp" height="300px" width="350px" class="img-set">
+      </div>
+
+      <div class="col-11 city">
+        <span class="coll">
+          <button class="positionButton1">
+            start
+          </button>
+          <img src="./Quetta.webp" height="300px" width="350px" class="img-set">
+        </span>
+        <span class="coll">
+        <button class="positionButton2">
+          start
+        </button>
+        <img src="./RahimYarKhan.webp" height="300px" width="350px" class="img-set">
+      </span>
+      <span class="coll">
+        <button class="positionButton3">
+          start
+        </button>
+        <img src="./Sadiqabad.webp" height="300px" width="350px" class="img-set">
+      </span>
+      
+      </div>
+
+      <div class="col-11 city">
+        <img src="./Sahiwal.webp" height="300px" width="350px" class="img-set">
+        <img src="./Sargodha.webp" height="300px" width="350px" class="img-set">
+        <img src="./Sheikhupura.jpg" height="300px" width="350px" class="img-set">
+      </div>
+
+      <div class="col-11 city">
+        <img src="./Sialkot.webp" height="300px" width="350px" class="img-set">
+        <img src="./Sukkur.webp" height="300px" width="350px" class="img-set">
+        <img src="./WahhCannt.webp" height="300px" width="350px" class="img-set">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container bckpink">
+    <div class="row">
+      <div class="col-7 content">Download the food and groceries you love</div>
+
+
+      <div class="d-flex">
+        <div class="mt-5 ps-4">
+          <div class="border p-2">
+
+            <img src="https://images.deliveryhero.io/image/foodpanda/homepage/pkhomepageqrcode.png" alt=""
+              width="100px">
+          </div>
+        </div>
+        <div>
+          <p style="text-align: center;" class="sub-content"> It's all at your fingertips <br>– the restaurants and shops you love.
+            Find the
+            <br>right food and groceries to suit your mood,<br> and make the first bite last. Go ahead,
+            download
+            us.
+          </p>
+        </div>
+      </div>
+      <div>
+        <img src="./Apple app store.png" alt="" width="100px" height="50px">
+      </div>
+      <div>
+        <img src="./get-it-on-google-play-badge.png" alt="" height="50px" width="100px">
+      </div>
+      <div>
+        <img src="./huawei app.png" alt="" height="50px" width="100px">
+      </div>
+
+    </div>
+    <div class="col-5 ">
+      <img class=" imgset"
+        src="width=2000&amp;height=1590"
+        alt="banner" data-testid="banner" height="500px">
+    </div>
+  </div>
+  
 
 </body>
 
